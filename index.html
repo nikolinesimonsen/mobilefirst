@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TeamAllOut's Triatlon-, cykel-, og løbecoach kan hjælpe dig med at nå dine mål. Skal du lave en IRONMAN, løbe et marathon eller cykle op af Alpe d'Huez - så kan vi hjælpe dig">
+    <meta name="keywords" content="triatlontræner, triatlon, løbetræner, løbecoach, teamallout, marathontræner">
+    <title>TeamAllOut - Coaching</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-------------------------FONTS--------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <!----------------------Dropdown menu---------------------->    
+        <nav class="menu1">
+            <ul class="navigation">
+                <a class="logo-link" href="index.html"><img class="logo-billede" src="img/blue_logo.png" alt="teamallout logo"></a>
+                <li  class="dropdown"><a href="coaching.html" href="javascript:void(0)" class="dropbtn">COACHING</a>
+                <section class="dropdown-content">
+                    <a href="traenere.html">TRÆNERE</a>
+                    <a href="triatloncoach.html">TRIATLONCOACHING</a>
+                    <a href="lobecoach.html">LØBECOACHING</a>
+                    <a href="cykelcoach.html">CYKELCOACHING</a>
+                </section>
+                </li>
+
+                <!----------INGEN dropdown - ingen undersider----------->
+                <li class="dropdown"><a href="priser.html" href="javascript:void(0)" class="dropbtn">PRISER</a>
+                <section class="dropdown-content">
+                </section>
+                </li>
+
+                <li class="dropdown"><a href="events.html" href="javascript:void(0)" class="dropbtn">EVENTS & CAMPS</a>
+                    <section class="dropdown-content">
+                        <a href="mallorca.html">MALLORCA</a>
+                        <a href="traeningsweekend.html">TRÆNINGSWEEKENDER</a>
+                    </section>
+                </li>
+                <li class="dropdown"><a href="teamtoj.html" href="javascript:void(0)" class="dropbtn">TEAM TØJ & UDLEJNING</a>
+                    <section class="dropdown-content">
+                        <a href="teamtoj.html">TEAM TØJ</a>
+                        <a href="udlejning.html">UDLEJNING</a>
+                    </section>
+                </li>
+                <li class="dropdown"><a href="omos.html" href="javascript:void(0)" class="dropbtn">OM OS</a>
+                    <section class="dropdown-content">
+                        <a href="kontakt.html">KONTAKT</a>
+                        <a href="blog.html">BLOG</a>
+                        <a href="videounivers.html">VIDEOUNIVERS</a>
+                        <a href="nyheder.html">NYHEDER</a>
+                    </section>
+                </li>
+            </ul>
+        </nav>
+    <!---------------------BURGER MENU----------------------->    
+    <!-- Top Navigation Menu -->
+    <nav class="topnav">
+            <a href="index.html" class="active"><img src="img/blue_logo.png" alt="teamallout logo" width="130px"></a>
+    <!-- Navigation links (hidden by default) -->
+        <ul id="myLinks">
+            <li class="burger-menu-list"><a href="coaching.html">COACHING</a></li>
+            <li class="burger-menu-list"><a href="priser.html">PRISER</a></li>
+            <li class="burger-menu-list"><a href="events.html">EVENTS & CAMPS</a></li>
+            <li class="burger-menu-list"><a href="teamtoj.html">TEAM TØJ & UDLEJNING</a></li>
+            <li class="burger-menu-list"><a href="omos.html">OM OS</a></li>
+        </ul>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    <!--------JavaScript------>
+    <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+    </script>
+    </header>
+
+    <!----------------FORSIDE VIDEO OG TESKT----------------->
+    <section class="grid">
+        <div class="item1">
+    <section class="video-start">
+        <video width="100%" height="100%" loop autoplay playsinline muted alt="video med teamallout atleter der dyrker sport">
+            <source src="video/teamallout-video-3.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+        <button class="videoknap"><a class="cta" href="traenere.html">BOOK EN COACH</a></button>
+    </section>
+    </div>
+    <div class="item2">
+    <section class="forside-tekst">
+        <h1>FÅ EN TRÆNER FRA TEAMALLOUT</h1>
+        <p>Find din næste triatlon træner, løbetræner eller cykeltræner hos TeamAllOut.<br><br>
+            Vi er specialiserede i personlig online coaching og træningsplanlægning inden for triathlon, cykling og løb, og ønsker at give dig den bedste oplevelse mod dine kommende konkurrencer og mål.<br><br>
+            Kontakt os for en uforpligtende samtale</p>
+            <br>
+        <button class="knap"><a class="kontakt-knap" href="kontakt.html"></a>KONTAKT</button>
+    </section>
+    </div>
+    <br>
+    <!---------------------Vælg sportsgren-------------------->
+    <section class="item3">
+        <a href="triatloncoach.html"><img class="desktopknap" src="img/mobilefirst-knap-tri-desktop.png" width="400px" alt="mand der cykler på triatlon cykel"></a>
+        <a href="triatloncoach.html"><img class="mobileknap" src="img/mobilefirst-knap-tri-mobile.png" width="100%" alt="mand der cykler på triatlon cykel"></a>
+    </section>
+    <section class="item4">
+        <a href="lobecoach.html"><img class="desktopknap" src="img/mobilefirst-knap-lob-desktop.png" width="400px" alt="to mænd der løber på løbebane"></a> 
+        <a href="lobecoach.html"><img class="mobileknap" src="img/mobilefirst-knap-lob-mobile.png" width="100%" alt="to mænd der løber på løbebane"></a>
+    </section>
+    <section class="item5">
+        <a href="cykelcoach.html"><img class="desktopknap" src="img/mobilefirst-knap-cykel-desktop.png" width="400px" alt="to mænd der cykler på racer cykel ved vandet"></a>
+        <a href="cykelcoach.html"><img class="mobileknap" src="img/mobilefirst-knap-cykel-mobile.png" width="100%" alt="to mænd der cykler på racer cykel ved vandet"></a>
+    </section>
+    <div class="item6"><img src="img/carl-mf.JPG" width="100%" alt="mand der smiler med badehætte og svømmebriller på"></div>
+    <div class="item7">
+        <h2 class="carl">CARL BASTIAN, 26 ÅR</h2>
+        <p class="citat">"TeamAllOut og træner Kristian har hjulpet mig med at få min cykeltræning ind i et system, så hver eneste træningsblok giver mening.<br><br> Super professionelt og omhyggeligt planlagt i henhold til min dag. Den løbende samtale med min træner og feedback til min træning fungerer perfekt"</p>
+    </div>
+    <footer class="item8">
+        <ul class="footer-kontakt">
+            <li class="footer-menu-item"><h3>KONTAKT INFORMATION</h3></li>
+            <li class="footer-menu-item"><p>Bo Strandmark</p></li>
+            <li class="footer-menu-item"><p>Odensegade 12, 2th</p></li>
+            <li class="footer-menu-item"><p>bo@teamallout.dk</p></li>
+        </ul>
+        <br>
+        <ul class="footer-menu">
+            <br>
+            <br>
+            <br>
+            <a href="index.html"><h4 class="sitemap">FORSIDE</h4></a>
+            <a href="coaching.html"><h4 class="sitemap">COACHING</h4></a>
+            <a href="traenere.html"><h4 class="sitemap">TRÆNERE</h4></a>
+            <a href="omos.html"><h4 class="sitemap">OM OS</h4></a>
+            <br>
+        </ul>
+    </footer>
+
+</section>
+</body>
+</html>

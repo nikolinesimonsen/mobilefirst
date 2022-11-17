@@ -1,0 +1,11 @@
+user-agent: Googlebot
+disallow: /
+
+user-agent: *
+disallow: /
+
+user-agent: AdsBot-Googlebot
+disallow: /
+
+user-agent:AdsBot-Google-Mobile
+disallow: /

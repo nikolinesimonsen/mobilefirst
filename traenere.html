@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TeamAllOut's Triatlon-, cykel-, og løbecoach kan hjælpe dig med at nå dine mål. Skal du lave en IRONMAN, løbe et marathon eller cykle op af Alpe d'Huez - så kan vi hjælpe dig">
+    <meta name="keywords" content="triatlontræner, triatlon, løbetræner, løbecoach, teamallout, marathontræner">
+    <title>TeamAllOut - Coaching</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-------------------------FONTS--------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <!----------------------Dropdown menu---------------------->    
+        <nav class="menu1">
+            <ul class="navigation">
+                <a class="logo-link" href="index.html"><img class="logo-billede" src="img/blue_logo.png"></a>
+                <li  class="dropdown"><a href="coaching.html" href="javascript:void(0)" class="dropbtn">COACHING</a>
+                <section class="dropdown-content">
+                    <a href="traenere.html">TRÆNERE</a>
+                    <a href="triatloncoach.html">TRIATLONCOACHING</a>
+                    <a href="lobecoach.html">LØBECOACHING</a>
+                    <a href="cykelcoach.html">CYKELCOACHING</a>
+                </section>
+                </li>
+
+                <!----------INGEN dropdown - ingen undersider----------->
+                <li class="dropdown"><a href="priser.html" href="javascript:void(0)" class="dropbtn">PRISER</a>
+                <section class="dropdown-content">
+
+                </section>
+                </li>
+                <!------------------------SLUT-------------------------->
+
+                <li class="dropdown"><a href="events.html" href="javascript:void(0)" class="dropbtn">EVENTS & CAMPS</a>
+                    <section class="dropdown-content">
+                        <a href="mallorca.html">MALLORCA</a>
+                        <a href="traeningsweekend.html">TRÆNINGSWEEKENDER</a>
+                    </section>
+                </li>
+                <li class="dropdown"><a href="teamtoj.html" href="javascript:void(0)" class="dropbtn">TEAM TØJ & UDLEJNING</a>
+                    <section class="dropdown-content">
+                        <a href="teamtoj.html">TEAM TØJ</a>
+                        <a href="udlejning.html">UDLEJNING</a>
+                    </section>
+                </li>
+                <li class="dropdown"><a href="omos.html" href="javascript:void(0)" class="dropbtn">OM OS</a>
+                    <section class="dropdown-content">
+                        <a href="kontakt.html">KONTAKT</a>
+                        <a href="blog.html">BLOG</a>
+                        <a href="videounivers.html">VIDEOUNIVERS</a>
+                        <a href="nyheder.html">NYHEDER</a>
+                    </section>
+                </li>
+            </ul>
+        </nav>
+    <!---------------------BURGER MENU----------------------->    
+    <!-- Top Navigation Menu -->
+    <nav class="topnav">
+            <a href="index.html" class="active"><img src="img/blue_logo.png" alt="teamallout logo" width="130px"></a>
+    <!-- Navigation links (hidden by default) -->
+        <ul id="myLinks">
+            <li class="burger-menu-list"><a href="coaching.html">COACHING</a></li>
+            <li class="burger-menu-list"><a href="priser.html">PRISER</a></li>
+            <li class="burger-menu-list"><a href="events.html">EVENTS & CAMPS</a></li>
+            <li class="burger-menu-list"><a href="teamtoj.html">TEAM TØJ & UDLEJNING</a></li>
+            <li class="burger-menu-list"><a href="omos.html">OM OS</a></li>
+        </ul>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    <!--------JavaScript------>
+    <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+    </script>
+    </header>
+
+    <!----------------FORSIDE VIDEO OG TESKT----------------->
+    <br>
+    <section class="video-start">
+        <img src="img/carl-traenere.png" width="100%">
+        <button class="videoknap"><a class="cta" href="kontakt.html">BOOK EN COACH</a></button>
+    </section>
+    <section class="forside-tekst">
+        <h2>FIND DIN TRÆNER</h2>
+    </section>
+    <br>
+    <!---------------------Vælg Træner-------------------->
+<section class="flex-container">
+    <div class="flex-item">
+        <a href="bostrandmark.html"><img class="traenerknap" src="img/bo-strandmark-desktop.png" width="400px"></a>
+    </div>
+    <div class="flex-item">
+        <a href="bostrandmark.html"><img class="traenerknap" src="img/carl-bastian-desktop.png" width="400px"></a> 
+    </div>
+    <div class="flex-item">
+        <a href="bostrandmark.html"><img class="traenerknap" src="img/daniel-paulsen.png" width="400px"></a>
+    </div>
+    <div class="flex-item">
+        <a href="bostrandmark.html"><img class="traenerknap" src="img/dieter-comhair.png" width="400px"></a>
+    </div>
+    <div class="flex-item">
+        <a href="bostrandmark.html"><img class="traenerknap" src="img/kristian-sletten-desktop.png" width="400px"></a>
+    </div>
+    <div class="flex-item">
+        <a href="bostrandmark.html"><img class="traenerknap" src="img/soren-selvejer.png" width="400px"></a>
+    </div>
+    <button class="item10-1"><a class="kontakt-knap-1" href="kontakt.html"></a>KONTAKT</button>
+</section>
+
+
+
+    <!------------------------FOOTER------------------------->
+    <footer class="item8">
+        <ul class="footer-kontakt">
+            <li class="footer-menu-item"><h3>KONTAKT INFORMATION</h3></li>
+            <li class="footer-menu-item"><p>Bo Strandmark</p></li>
+            <li class="footer-menu-item"><p>Odensegade 12, 2th</p></li>
+            <li class="footer-menu-item"><p>bo@teamallout.dk</p></li>
+        </ul>
+        <br>
+        <ul class="footer-menu">
+            <br>
+            <a href="index.html"><h4 class="sitemap">FORSIDE</h4></a>
+            <a href="coaching.html"><h4 class="sitemap">COACHING</h4></a>
+            <a href="traenere.html"><h4 class="sitemap">TRÆNERE</h4></a>
+            <a href="omos.html"><h4 class="sitemap">OM OS</h4></a>
+        </ul>
+
+    </footer>
+
+</body>
+</html>
